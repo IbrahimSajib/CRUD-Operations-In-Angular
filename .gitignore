@@ -1,0 +1,44 @@
+# .NET Core
+project.lock.json
+.project.json.user
+*.csproj.user
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# Visual Studio cache files
+# files ending in .cache can be ignored
+*.[Cc]ache
+# but keep track of directories ending in .cache
+!*.[Cc]ache/
+
+# Others
+ClientApp/node_modules/
+selenium/*.dll
+selenium/*.sln
+selenium/*.user
+selenium/*.exe
+*.dbmdl
+*.dbproj.schemaview
+*.pfx
+*.publishsettings
+orleans.codegen.cs
+
+# Including a directory dotfile (.vs, .idea) can ignore IDE-related files
+.vs/
+.idea/
+*.iml
